@@ -1,14 +1,19 @@
 # EmoPlay - Extract emotions from TEI-Encoded Theater plays using Senticnet
+
+## Preamble
+This is a modified version of [EmoPlay](https://github.com/7AS/OOP/tree/common_branch_theater/Theater_Project_POO) to output more data than the original code.
+
 ## Introduction
 EmoPlay is an educational object-oriented python project made by students from the University of Lausanne, Switzerland. EmoPlay can parse through TEI-Encoded theater plays and extract speech and speaker data as well as emotional attributes of the speeches it extracts. EmoPlay also offers an additional layer of text processing using a python implementation of Word Sense Disambiguation ([pywsd](https://github.com/alvations/pywsd)). This allows for greater and more accurate emotions extraction as results from disambiguated text often offer richer results when using the senticnet emotion dictionnary.
+
 ## Technologies
 EmoPlay relies on the following technologies :
 * Senticnet Dictionnary
     * This is not the Senticnet python module, but the pre-trained, locally stored, Senticnet word-emotion library. EmoPlay provides an "as-is" Senticnet library, but you can download the latest version [here](https://sentic.net/senticnet.zip) (**Caution** : you may encounter issues if the encoding format has changed since 30.05.2022)
 * Natural Language Tool Kit ([NLTK](https://www.nltk.org/)) & [WordNet](https://wordnet.princeton.edu/)
 * Python Implementation of Word Sense Disambiguation ([pywsd](https://github.com/alvations/pywsd))
+* 
 ## Install
-
 The following libraries are required to work with EmoPlay:
 * [Pandas](https://pandas.pydata.org/)
 * [Lxml](https://lxml.de/) as an XML parser for [Beautifoul Soup 4](https://www.crummy.com/software/BeautifulSoup/) (also required)
