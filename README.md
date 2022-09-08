@@ -3,6 +3,8 @@
 ## Preamble
 This is a modified version of [EmoPlay](https://github.com/7AS/OOP/tree/common_branch_theater/Theater_Project_POO) to output more data than the original code.
 
+IMPORTANT NOTE : The senticnet file needed to be split (due to size limitations). Please merge both files in the /senticnet folder BEFORE running the program and name the output file "senticnet.py".
+
 ## Introduction
 EmoPlay is an educational object-oriented python project made by students from the University of Lausanne, Switzerland. EmoPlay can parse through TEI-Encoded theater plays and extract speech and speaker data as well as emotional attributes of the speeches it extracts. EmoPlay also offers an additional layer of text processing using a python implementation of Word Sense Disambiguation ([pywsd](https://github.com/alvations/pywsd)). This allows for greater and more accurate emotions extraction as results from disambiguated text often offer richer results when using the senticnet emotion dictionnary.
 
